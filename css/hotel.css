@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+
+.top{
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(40, 62, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top h1{
+    margin: 0px;
+}
+
+span{
+    color:whitesmoke; 
+    padding: auto;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    border-radius: 5px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+img {
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+.container-1,.container-2,.container-3{
+    display: flex;
+    justify-content:space-evenly;
+}
+  
